@@ -5,6 +5,7 @@
     <title>Web konf</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/BSFixed.css">
 
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -17,13 +18,9 @@
 </head>
 <body>
 
-<div class="container_fluid" style="background-color: lavenderblush">
-    <div class="page-header text-center">
-        <h1>Web konference</h1>
-        <h2>Vzor semestralni prace z predmetu KIV/WEB</h2>
-    </div>
-
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+<!--<div class="container_fluid" style="background-color: lavenderblush">-->
+<div class="container_fluid gBox gAnim">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
         <ul class="navbar-nav">
             <li class="nav-item active">
                 <a class="nav-link" href="#">Přihlásit se</a>
@@ -35,22 +32,45 @@
         </ul>
     </nav>
 
-    <div class="container col-1 float-left text-center" style="background-color: yellow; border: 2px red solid;
-                                            margin-top: 20px; padding: 5px">
-        <button type="button" class="btn btn-danger" style="margin-bottom: 5px">TEST_1</button>
-        <button type="button" class="btn btn-danger" style="margin-bottom: 5px">TEST_2</button>
-        <button type="button" class="btn btn-danger" style="margin-bottom: 5px">TEST_3</button>
-        <button type="button" class="btn btn-danger" style="margin-bottom: 5px">TEST_4</button>
-        <button type="button" class="btn btn-danger" style="margin-bottom: 5px">TEST_5</button>
+    <div class="page-header text-center contTransBg" style="margin-top: 50px; margin-bottom: 15px; padding: 15px">
+        <h1>Web konference</h1>
+        <h2>Vzor semestralni prace z predmetu KIV/WEB</h2>
     </div>
 
-    <div class="container" style="margin-top: 20px">
-        <div class="shadow p-4 mb-4 bg-white text-justify">
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur vitae diam non enim vestibulum interdum. Duis risus. In sem justo, commodo ut, suscipit at, pharetra vitae, orci. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Fusce tellus. Nulla non arcu lacinia neque faucibus fringilla. In enim a arcu imperdiet malesuada. Duis condimentum augue id magna semper rutrum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Nam sed tellus id magna elementum tincidunt. Mauris tincidunt sem sed arcu. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nulla turpis magna, cursus sit amet, suscipit a, interdum id, felis. Fusce nibh. Integer lacinia. Morbi leo mi, nonummy eget tristique non, rhoncus non leo. Integer in sapien.</p>
-            <p>Duis pulvinar. Aliquam id dolor. Duis pulvinar. Sed ac dolor sit amet purus malesuada congue. Morbi imperdiet, mauris ac auctor dictum, nisl ligula egestas nulla, et sollicitudin sem purus in lacus. Aliquam erat volutpat. In rutrum. Morbi leo mi, nonummy eget tristique non, rhoncus non leo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam lectus justo, vulputate eget mollis sed, tempor sed magna. Duis pulvinar. Aliquam ornare wisi eu metus. In laoreet, magna id viverra tincidunt, sem odio bibendum justo, vel imperdiet sapien wisi sed libero. Nam quis nulla. Integer rutrum, orci vestibulum ullamcorper ultricies, lacus quam ultricies odio, vitae placerat pede sem sit amet enim. Mauris tincidunt sem sed arcu.</p>
-            <p>Donec iaculis gravida nulla. Nullam eget nisl. Duis risus. Vestibulum fermentum tortor id mi. Praesent vitae arcu tempor neque lacinia pretium. Maecenas ipsum velit, consectetuer eu lobortis ut, dictum at dui. Nullam sit amet magna in magna gravida vehicula. Etiam neque. Donec quis nibh at felis congue commodo. Etiam quis quam. Pellentesque ipsum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam ligula pede, sagittis quis, interdum ultricies, scelerisque eu. Integer vulputate sem a nibh rutrum consequat. Duis condimentum augue id magna semper rutrum.</p>
-            <p>Maecenas lorem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam ante. Nulla turpis magna, cursus sit amet, suscipit a, interdum id, felis. Fusce nibh. Etiam commodo dui eget wisi. Integer in sapien. Duis ante orci, molestie vitae vehicula venenatis, tincidunt ac pede. Fusce dui leo, imperdiet in, aliquam sit amet, feugiat eu, orci. Etiam ligula pede, sagittis quis, interdum ultricies, scelerisque eu. Suspendisse sagittis ultrices augue. Etiam ligula pede, sagittis quis, interdum ultricies, scelerisque eu. Aliquam ante. Etiam dictum tincidunt diam.</p>
-            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Donec vitae arcu. Etiam posuere lacus quis dolor. Aliquam ante. Fusce wisi. Nam sed tellus id magna elementum tincidunt. Mauris metus. Et harum quidem rerum facilis est et expedita distinctio. Aliquam erat volutpat. In rutrum. Integer lacinia. Donec vitae arcu. Curabitur bibendum justo non orci.</p>
+
+    <div class="container shadow contTransBg col-1 float-left text-center" style="padding: 5px;
+                                                                        margin-left: 3px">
+        <h4>Navigace</h4>
+        <button type="button" class="btn btn-block bg-secondary text-white">Uživatele</button>
+        <button type="button" class="btn btn-block bg-primary text-white">Publikace</button>
+        <button type="button" class="btn btn-block bg-warning text-black">Termíny</button>
+        <button type="button" class="btn btn-block bg-secondary text-white">Témata</button>
+        <button type="button" class="btn btn-block bg-info">Info</button>
+    </div>
+
+    <div class="container">
+        <div class="shadow p-3 mb-4 text-justify contTransBg">
+            <div class="card mb-3 bg-light text-dark">
+                <div class="card-header">Publikovano: Kravtsov Dmytro 21.10.18 18:03</div>
+                <div class="card-body">
+                    <h4>Nazev clanku</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur vitae diam non enim vestibulum interdum. Duis risus. In sem justo, commodo ut, suscipit at, pharetra vitae, orci. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Fusce tellus. Nulla non arcu lacinia neque faucibus fringilla. In enim a arcu imperdiet malesuada. Duis condimentum augue id magna semper rutrum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Nam sed tellus id magna elementum tincidunt. Mauris tincidunt sem sed arcu. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nulla turpis magna, cursus sit amet, suscipit a, interdum id, felis. Fusce nibh. Integer lacinia. Morbi leo mi, nonummy eget tristique non, rhoncus non leo. Integer in sapien.</p>
+                </div>
+            </div>
+            <div class="card mb-3 bg-light text-dark">
+                <div class="card-header">Publikovano: Kravtsov Dmytro 21.10.18 18:03</div>
+                <div class="card-body">
+                    <h4>Nazev clanku</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur vitae diam non enim vestibulum interdum. Duis risus. In sem justo, commodo ut, suscipit at, pharetra vitae, orci. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Fusce tellus. Nulla non arcu lacinia neque faucibus fringilla. In enim a arcu imperdiet malesuada. Duis condimentum augue id magna semper rutrum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Nam sed tellus id magna elementum tincidunt. Mauris tincidunt sem sed arcu. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nulla turpis magna, cursus sit amet, suscipit a, interdum id, felis. Fusce nibh. Integer lacinia. Morbi leo mi, nonummy eget tristique non, rhoncus non leo. Integer in sapien.</p>
+                </div>
+            </div>
+            <div class="card mb-3 bg-light text-dark">
+                <div class="card-header">Publikovano: Kravtsov Dmytro 21.10.18 18:03</div>
+                <div class="card-body">
+                    <h4>Nazev clanku</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur vitae diam non enim vestibulum interdum. Duis risus. In sem justo, commodo ut, suscipit at, pharetra vitae, orci. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Fusce tellus. Nulla non arcu lacinia neque faucibus fringilla. In enim a arcu imperdiet malesuada. Duis condimentum augue id magna semper rutrum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Nam sed tellus id magna elementum tincidunt. Mauris tincidunt sem sed arcu. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nulla turpis magna, cursus sit amet, suscipit a, interdum id, felis. Fusce nibh. Integer lacinia. Morbi leo mi, nonummy eget tristique non, rhoncus non leo. Integer in sapien.</p>
+                </div>
+            </div>
         </div>
     </div>
 
