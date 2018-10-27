@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0078acd1-9a49-45bb-8dc4-2fcfcf5616bd" name="Default Changelist" comment="Structure service.&#10;Locale Bootstrap connected.&#10;FontAwesome icons added.&#10;MVC architecture establised.">
-      <change afterPath="$PROJECT_DIR$/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap.min.css.map" afterDir="false" />
+    <list default="true" id="0078acd1-9a49-45bb-8dc4-2fcfcf5616bd" name="Default Changelist" comment="Bootstrap locale files commited.">
+      <change afterPath="$PROJECT_DIR$/css/Bootstrap/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/Bootstrap/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/Bootstrap/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/Bootstrap/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/Bootstrap/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/Bootstrap/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/Bootstrap/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/Bootstrap/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/Bootstrap/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/Bootstrap/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/Bootstrap/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/Bootstrap/bootstrap.min.css.map" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/js/bootstrap.bundle.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/js/bootstrap.bundle.js.map" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/js/bootstrap.bundle.min.js" afterDir="false" />
@@ -23,11 +23,6 @@
       <change afterPath="$PROJECT_DIR$/js/bootstrap.min.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/js/bootstrap.min.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/unknown_user_img.png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/unknown_user_img.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/uzivatele_bg_img.png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/uzivatele_bg_img.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/www-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/www-logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/usersList.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/users.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/uzivatele.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,38 +81,43 @@
     <session id="-376219676">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.0" value="2" />
+          <entry key="project.closed" value="10" />
+          <entry key="project.open.time.0" value="6" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="gitignore" value="3" />
           <entry key="html" value="7" />
           <entry key="php" value="5" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="7" />
           <entry key="PHP" value="5" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="208" />
-          <entry key="php" value="265" />
-          <entry key="txt" value="156" />
+          <entry key="html" value="223" />
+          <entry key="php" value="271" />
+          <entry key="txt" value="216" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="208" />
-          <entry key="PHP" value="265" />
-          <entry key="PLAIN_TEXT" value="156" />
+          <entry key="HTML" value="223" />
+          <entry key="PHP" value="271" />
+          <entry key="PLAIN_TEXT" value="216" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -131,20 +131,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/users.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+            <state relative-caret-position="189">
+              <caret line="27" column="41" lean-forward="true" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -184,8 +175,10 @@
         <option value="$PROJECT_DIR$/src/firstPhpFile.php" />
         <option value="$PROJECT_DIR$/src/testVCSfile.php" />
         <option value="$PROJECT_DIR$/src/uzivatele.html" />
-        <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/usersList.php" />
+        <option value="$PROJECT_DIR$/src/users.php" />
+        <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -213,6 +206,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -229,7 +223,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -249,6 +242,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dimit\OneDrive\Документы\VIK-BEW\Semestralni prace\css\Bootstrap" />
       <recent name="C:\Users\Dimit\PhpstormProjects\WEBSP\src" />
     </key>
   </component>
@@ -294,7 +288,12 @@
       <workItem from="1540383637005" duration="101000" />
       <workItem from="1540409147416" duration="1647000" />
       <workItem from="1540415864705" duration="6000" />
-      <workItem from="1540570441956" duration="3387000" />
+      <workItem from="1540570441956" duration="4261000" />
+      <workItem from="1540642944508" duration="65000" />
+      <workItem from="1540643011995" duration="113000" />
+      <workItem from="1540643129100" duration="84000" />
+      <workItem from="1540643216321" duration="826000" />
+      <workItem from="1540644047749" duration="219000" />
     </task>
     <task id="LOCAL-00001" summary="Test PHP Storm VCS system, attempt 2.">
       <created>1540383698244</created>
@@ -317,18 +316,59 @@
       <option name="project" value="LOCAL" />
       <updated>1540410783972</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Structure service.&#10;Locale Bootstrap connected.&#10;FontAwesome icons added.&#10;MVC architecture establised.">
+      <created>1540642202067</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1540642202068</updated>
+    </task>
+    <task id="LOCAL-00005" summary="gitignores">
+      <created>1540643169199</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1540643169199</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Change xx1">
+      <created>1540643492063</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1540643492063</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Bootstrap locale files commited.">
+      <created>1540643598510</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1540643598510</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Bootstrap locale files commited.">
+      <created>1540643995740</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1540643995740</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Bootstrap locale files commited.">
+      <created>1540644250826</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1540644250826</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36952000" />
+    <option name="totallyTimeSpent" value="39133000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49605057" visible="true" weight="0.24304539" />
-      <window_info id="Structure" order="1" sideWeight="0.50394946" side_tool="true" visible="true" weight="0.24304539" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48815167" visible="true" weight="0.24304539" />
+      <window_info id="Structure" order="1" sideWeight="0.51184833" side_tool="true" visible="true" weight="0.24304539" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.328594" />
@@ -339,7 +379,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.328594" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="PHP-CGI Server" order="12" />
@@ -352,6 +392,32 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -359,7 +425,10 @@
     <MESSAGE value="Test PHP Storm VCS system, attempt 2." />
     <MESSAGE value="Structure service" />
     <MESSAGE value="Structure service.&#10;Locale Bootstrap connected.&#10;FontAwesome icons added.&#10;MVC architecture establised." />
-    <option name="LAST_COMMIT_MESSAGE" value="Structure service.&#10;Locale Bootstrap connected.&#10;FontAwesome icons added.&#10;MVC architecture establised." />
+    <MESSAGE value="gitignores" />
+    <MESSAGE value="Change xx1" />
+    <MESSAGE value="Bootstrap locale files commited." />
+    <option name="LAST_COMMIT_MESSAGE" value="Bootstrap locale files commited." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../WEB_Semestralka/src/Main Page Template.html" />
@@ -372,24 +441,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/uzivatele.html">
+    <entry file="file://$PROJECT_DIR$/src/uzivatele.html" />
+    <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="168">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="563">
+          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/users.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        <state relative-caret-position="189">
+          <caret line="27" column="41" lean-forward="true" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
         </state>
       </provider>
     </entry>
