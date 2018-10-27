@@ -4,7 +4,7 @@
     <title>Uzivatele</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/Bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="../css/mainOwnStyles.css">
     <!--FontAwesome CDN-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css"
