@@ -1,10 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0078acd1-9a49-45bb-8dc4-2fcfcf5616bd" name="Default Changelist" comment="">
+    <list default="true" id="0078acd1-9a49-45bb-8dc4-2fcfcf5616bd" name="Default Changelist" comment="Structure service.&#10;Locale Bootstrap connected.&#10;FontAwesome icons added.&#10;MVC architecture establised.">
+      <change afterPath="$PROJECT_DIR$/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap.min.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main Page Template.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testVCSfile.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/unknown_user_img.png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/unknown_user_img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/uzivatele_bg_img.png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/uzivatele_bg_img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/www-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/www-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/usersList.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/users.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uzivatele.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,34 +86,38 @@
     <session id="-376219676">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="1" />
-          <entry key="php" value="3" />
+          <entry key="html" value="7" />
+          <entry key="php" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="1" />
-          <entry key="PHP" value="3" />
+          <entry key="HTML" value="7" />
+          <entry key="PHP" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="87" />
-          <entry key="txt" value="42" />
+          <entry key="html" value="208" />
+          <entry key="php" value="265" />
+          <entry key="txt" value="156" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="87" />
-          <entry key="PLAIN_TEXT" value="42" />
+          <entry key="HTML" value="208" />
+          <entry key="PHP" value="265" />
+          <entry key="PLAIN_TEXT" value="156" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -104,11 +131,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/usersList.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="903">
-              <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+            <state relative-caret-position="441">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/users.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -144,10 +180,12 @@
         <option value="$PROJECT_DIR$/Main Page Template.html" />
         <option value="$PROJECT_DIR$/css/uzivatele.html" />
         <option value="$PROJECT_DIR$/src/Main Page Template.html" />
-        <option value="$PROJECT_DIR$/src/uzivatele.html" />
         <option value="$PROJECT_DIR$/css/BSFixed.css" />
         <option value="$PROJECT_DIR$/src/firstPhpFile.php" />
         <option value="$PROJECT_DIR$/src/testVCSfile.php" />
+        <option value="$PROJECT_DIR$/src/uzivatele.html" />
+        <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/src/usersList.php" />
       </list>
     </option>
   </component>
@@ -175,7 +213,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -192,6 +229,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -227,12 +265,12 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="usersList.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/src/usersList.php">
+    <configuration name="users.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/src/users.php">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="PHP Script.usersList.php" />
+        <item itemvalue="PHP Script.users.php" />
       </list>
     </recent_temporary>
   </component>
@@ -254,7 +292,9 @@
       <workItem from="1540229278324" duration="6777000" />
       <workItem from="1540382549782" duration="1082000" />
       <workItem from="1540383637005" duration="101000" />
-      <workItem from="1540409147416" duration="362000" />
+      <workItem from="1540409147416" duration="1647000" />
+      <workItem from="1540415864705" duration="6000" />
+      <workItem from="1540570441956" duration="3387000" />
     </task>
     <task id="LOCAL-00001" summary="Test PHP Storm VCS system, attempt 2.">
       <created>1540383698244</created>
@@ -263,20 +303,35 @@
       <option name="project" value="LOCAL" />
       <updated>1540383698244</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Structure service">
+      <created>1540409642357</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1540409642357</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Structure service">
+      <created>1540410783972</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1540410783972</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32274000" />
+    <option name="totallyTimeSpent" value="36952000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49921012" visible="true" weight="0.24304539" />
-      <window_info id="Structure" order="1" sideWeight="0.5007899" side_tool="true" visible="true" weight="0.24304539" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49605057" visible="true" weight="0.24304539" />
+      <window_info id="Structure" order="1" sideWeight="0.50394946" side_tool="true" visible="true" weight="0.24304539" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.328594" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.39443535" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -302,25 +357,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test PHP Storm VCS system, attempt 2." />
-    <option name="LAST_COMMIT_MESSAGE" value="Test PHP Storm VCS system, attempt 2." />
+    <MESSAGE value="Structure service" />
+    <MESSAGE value="Structure service.&#10;Locale Bootstrap connected.&#10;FontAwesome icons added.&#10;MVC architecture establised." />
+    <option name="LAST_COMMIT_MESSAGE" value="Structure service.&#10;Locale Bootstrap connected.&#10;FontAwesome icons added.&#10;MVC architecture establised." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../WEB_Semestralka/src/Main Page Template.html" />
     <entry file="file://$PROJECT_DIR$/Main Page Template.html" />
-    <entry file="file://$PROJECT_DIR$/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testVCSfile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testVCSfile.php" />
     <entry file="file://$PROJECT_DIR$/css/mainOwnStyles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1113">
@@ -330,15 +374,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/uzivatele.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        <state relative-caret-position="378">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/usersList.php">
+    <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="903">
-          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+        <state relative-caret-position="441">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
         </state>
       </provider>
     </entry>
