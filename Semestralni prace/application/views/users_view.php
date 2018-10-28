@@ -25,22 +25,25 @@
     <div class="container border shadow-lg usrBgSq rounded">
         <?php
             for ($i = 0; $i < 10; $i++) {
-                crUsrCard();
+                echo crUsrCard();
             }
 
             function crUsrCard(){
-               $returnString = "<div class=\"card\">
+               $returnString = "<div class=\"card userCard\">
                    <img class=\"card-img-top\" src=\"../../images/unknown_user_img.png\" 
-                                                alt=\"User image\">
+                        alt=\"User image\">
                    <div class=\"card-body\">
                       <h4 class=\"card-title\">USER NAME</h4>
                      <p class=\"card-text\">USER DESCRIPTION.</p>
-                     <a href=\"#\" class=\"btn btn-primary\">Zobrazit profil</a>
+                     <a href=\"#\" class=\"btn btn-primary\" style=\"display: block\">Zobrazit profil</a>
                   </div>
                </div>";
                return $returnString;
             }
         ?>
+        <div class="container text-center">
+            <a href="main" class="btn btn-danger">Hlavni stranka</a>
+        </div>
     </div>
     <footer>
         <h2 class="mt-2 mr-2 text-right text-black-50">Kravtsov Dmytro</h2>

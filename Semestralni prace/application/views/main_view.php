@@ -16,7 +16,7 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="../../css/Bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="../../css/mainOwnStyles.css">
-    <!--<link rel="stylesheet" href="../css/lfModalStyle.css"/>-->
+    <link rel="stylesheet" href="../../css/lfModalStyle.css"/>
 
     <script src="../../js/bootstrap.min.js"></script>
 </head>
@@ -27,42 +27,41 @@
         <ul class="navbar-nav">
             <li class="nav-item active">
                 <button class="nav-link btn btn-primary mr-2"
-                        onclick="document.getElementById('lfModal').style.display='block'"
-                        style="width: auto">Prihlasit se</button>
+                        onclick="document.getElementById('lfModal').style.display='block'">Prihlasit se</button>
                 <!-- lfModal = Login Form Modal-->
 
                 <div id="lfModal" class="modal">
-                    <form class="modal-content animate" action="index.html">
-                        <div class="imgcontainer">
+                    <form id="lfModal" class="modal-content animate" action="index.html">
+                        <div id="lfModal" class="imgcontainer">
                             <span onclick="document.getElementById('lfModal').style.display='none'" class="close"
                                   title="Close Login Form">&times;</span>
                             <img src="../../images/unknown_user_img.png" alt="Avatar" class="avatar">
                         </div>
 
-                        <div class="container">
+                        <div id="lfModal" class="container">
                             <label for="uname"><b>Username</b></label>
-                            <input type="text" placeholder="Enter Username" name="uname" required>
+                            <input id="lfModal" type="text" placeholder="Enter Username" name="uname" required>
 
                             <label for="psw"><b>Password</b></label>
-                            <input type="password" placeholder="Enter Password" name="psw" required>
+                            <input id="lfModal" type="password" placeholder="Enter Password" name="psw" required>
 
-                            <button type="button" class="btn btn-success">Login</button>
+                            <button id="lfModal" type="button" class="btn btn-success">Login</button>
                             <label>
                                 <input type="checkbox" checked="checked" name="remember"> Remember me
                             </label>
                         </div>
 
-                        <div class="container" style="background-color:#f1f1f1">
-                            <button type="button" onclick="document.getElementById('lfModal').style.display='none'"
+                        <div id="lfModal" class="container" style="background-color:#f1f1f1">
+                            <button id="lfModal" type="button" onclick="document.getElementById('lfModal').style.display='none'"
                                     class="cancelbtn">Cancel</button>
-                            <span class="psw">Forgot <a href="#">password?</a></span>
+                            <span id="lfModal" class="psw">Forgot <a href="#">password?</a></span>
                         </div>
                     </form>
 
                 </div>
                 <script>
                     // Get the modal
-                    var modal = document.getElementById('lfModal');
+                    var modal = document.getElementById("lfModal");
 
                     // When the user clicks anywhere outside of the modal, close it
                     window.onclick = function(event) {
@@ -88,8 +87,8 @@
     <div class="container shadow border contTransBg col-1 float-left text-center" style="padding: 5px;
                                                                         margin-left: 3px">
         <h4>Navigace</h4>
-        <button type="button" class="btn btn-block bg-secondary text-white"
-                href="/users/">Uživatele</button>
+        <a class="btn btn-block bg-secondary text-white"
+                href="users">Uživatele</a>
         <button type="button" class="btn btn-block bg-primary text-white">Publikace</button>
         <button type="button" class="btn btn-block bg-warning text-black">Termíny</button>
         <button type="button" class="btn btn-block bg-secondary text-white">Témata</button>

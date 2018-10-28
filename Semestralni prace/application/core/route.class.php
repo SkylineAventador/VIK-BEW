@@ -76,15 +76,8 @@ class Route
 
     static function ErrorPage404()
     {
-//        $host = 'http://'.$_SERVER['HTTP_HOST'].'/';
-//        header('HTTP/1.1 404 Not Found');
-//        header("Status: 404 Not Found");
-//        header('Location:'.$host.'404');
         http_response_code(404);
-        $notFoundFile = "../views/error404_view.php";
-        if (file_exists($notFoundFile)) {
-            include $notFoundFile;
-            die();
-        }
+        include "application/views/service/error404_view.php";
+        die();
     }
 }
