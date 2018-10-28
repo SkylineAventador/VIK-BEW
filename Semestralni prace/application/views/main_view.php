@@ -88,7 +88,8 @@
     <div class="container shadow border contTransBg col-1 float-left text-center" style="padding: 5px;
                                                                         margin-left: 3px">
         <h4>Navigace</h4>
-        <button type="button" class="btn btn-block bg-secondary text-white">Uživatele</button>
+        <button type="button" class="btn btn-block bg-secondary text-white"
+                href="/users/">Uživatele</button>
         <button type="button" class="btn btn-block bg-primary text-white">Publikace</button>
         <button type="button" class="btn btn-block bg-warning text-black">Termíny</button>
         <button type="button" class="btn btn-block bg-secondary text-white">Témata</button>

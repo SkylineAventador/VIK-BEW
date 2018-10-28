@@ -10,7 +10,7 @@ class Route
     static function start()
     {
         // контроллер и действие по умолчанию
-        $controller_name = 'main';
+        $controller_name = 'Main';
         $action_name = 'index';
 
         $routes = explode('/', $_SERVER['REQUEST_URI']);
@@ -28,8 +28,8 @@ class Route
         }
 
         // добавляем префиксы
-        $model_name = 'model_'.$controller_name;
         $controller_name = 'controller_'.$controller_name;
+        $model_name = 'model_'.$controller_name;
         $action_name = 'action_'.$action_name;
 
         // подцепляем файл с классом модели (файла модели может и не быть)
@@ -42,7 +42,7 @@ class Route
         }
 
         // подцепляем файл с классом контроллера
-        $controller_file = strtolower($controller_name).'.php';
+        $controller_file = strtolower($controller_name).'class.php';
         $controller_path = "application/controllers/".$controller_file;
         if(file_exists($controller_path))
         {
@@ -74,7 +74,7 @@ class Route
 
     }
 
-    function ErrorPage404()
+    static function ErrorPage404()
     {
         $host = 'http://'.$_SERVER['HTTP_HOST'].'/';
         header('HTTP/1.1 404 Not Found');
