@@ -8,5 +8,5 @@
 require_once 'core/model.class.php';
 require_once 'core/view.class.php';
 require_once 'core/controller.class.php';
-require_once 'core/route.php';
+require_once 'core/route.class.php';
 Route::start();

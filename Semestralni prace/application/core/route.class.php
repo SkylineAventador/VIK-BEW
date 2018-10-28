@@ -42,7 +42,7 @@ class Route
         }
 
         // подцепляем файл с классом контроллера
-        $controller_file = strtolower($controller_name).'class.php';
+        $controller_file = strtolower($controller_name).'.class.php';
         $controller_path = "application/controllers/".$controller_file;
         if(file_exists($controller_path))
         {
@@ -76,9 +76,15 @@ class Route
 
     static function ErrorPage404()
     {
-        $host = 'http://'.$_SERVER['HTTP_HOST'].'/';
-        header('HTTP/1.1 404 Not Found');
-        header("Status: 404 Not Found");
-        header('Location:'.$host.'404');
+//        $host = 'http://'.$_SERVER['HTTP_HOST'].'/';
+//        header('HTTP/1.1 404 Not Found');
+//        header("Status: 404 Not Found");
+//        header('Location:'.$host.'404');
+        http_response_code(404);
+        $notFoundFile = "../views/error404_view.php";
+        if (file_exists($notFoundFile)) {
+            include $notFoundFile;
+            die();
+        }
     }
 }

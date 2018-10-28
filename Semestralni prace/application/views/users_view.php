@@ -24,14 +24,22 @@
 <div class="gBox usersBg pb-1">
     <div class="container border shadow-lg usrBgSq rounded">
         <?php
-        $usersNmb = 1;
-        if ($usersNmb == 0) {
-            echo "<h2 class='text-dark text-center'>Error: There are no users inside!</h2>";
-        } else {
             for ($i = 0; $i < 10; $i++) {
                 crUsrCard();
             }
-        }
+
+            function crUsrCard(){
+               $returnString = "<div class=\"card\">
+                   <img class=\"card-img-top\" src=\"../../images/unknown_user_img.png\" 
+                                                alt=\"User image\">
+                   <div class=\"card-body\">
+                      <h4 class=\"card-title\">USER NAME</h4>
+                     <p class=\"card-text\">USER DESCRIPTION.</p>
+                     <a href=\"#\" class=\"btn btn-primary\">Zobrazit profil</a>
+                  </div>
+               </div>";
+               return $returnString;
+            }
         ?>
     </div>
     <footer>
@@ -40,17 +48,3 @@
 </div>
 </body>
 </html>
-
-<?php
-function crUsrCard(){
-$returnString = "<div class=\"card\" style=\"width:200px\">
-        <img class=\"card-img-top\" src=\"../../images/unknown_user_img.png\" alt=\"User image\">
-        <div class=\"card-body\">
-            <h4 class=\"card-title\">USER NAME</h4>
-            <p class=\"card-text\">USER DESCRIPTION.</p>
-            <a href=\"#\" class=\"btn btn-primary\">Zobrazit profil</a>
-        </div>
-    </div>";
-    return $returnString;
-}
-?>
