@@ -1,20 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0078acd1-9a49-45bb-8dc4-2fcfcf5616bd" name="Default Changelist" comment="Session and cookies controllers added.">
-      <change afterPath="$PROJECT_DIR$/application/views/error404_view.php" afterDir="false" />
+    <list default="true" id="0078acd1-9a49-45bb-8dc4-2fcfcf5616bd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/login-reseni.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/nonProjectTmp/login-reseni.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/login-reseni.php" beforeDir="false" afterPath="$PROJECT_DIR$/nonProjectTmp/login-reseni.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/myCookies-reseni.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/nonProjectTmp/myCookies-reseni.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/mySessions-reseni.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/nonProjectTmp/mySessions-reseni.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/nakup-auta-reseni.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/nonProjectTmp/nakup-auta-reseni.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/nakup-auta-reseni.php" beforeDir="false" afterPath="$PROJECT_DIR$/nonProjectTmp/nakup-auta-reseni.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/nonProjectTmp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/users.php" beforeDir="false" afterPath="$PROJECT_DIR$/nonProjectTmp/users.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/bootstrap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/core/route.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/core/route.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/users_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/users_view.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +61,7 @@
     <session id="-376219676">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
+          <entry key="project.closed" value="14" />
           <entry key="project.open.time.0" value="10" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
@@ -108,7 +96,7 @@
           <entry key="dummy" value="52" />
           <entry key="html" value="740" />
           <entry key="php" value="1515" />
-          <entry key="txt" value="502" />
+          <entry key="txt" value="519" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -116,7 +104,7 @@
           <entry key="CSS" value="186" />
           <entry key="HTML" value="773" />
           <entry key="PHP" value="1482" />
-          <entry key="PLAIN_TEXT" value="554" />
+          <entry key="PLAIN_TEXT" value="571" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -310,7 +298,7 @@
       <workItem from="1540644271989" duration="52000" />
       <workItem from="1540644327387" duration="783000" />
       <workItem from="1540645119247" duration="78000" />
-      <workItem from="1540645200450" duration="22542000" />
+      <workItem from="1540645200450" duration="22615000" />
     </task>
     <task id="LOCAL-00001" summary="Test PHP Storm VCS system, attempt 2.">
       <created>1540383698244</created>
@@ -431,11 +419,18 @@
       <option name="project" value="LOCAL" />
       <updated>1540727384299</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Project rebase">
+      <created>1540743400994</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1540743400994</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62588000" />
+    <option name="totallyTimeSpent" value="62661000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -509,7 +504,8 @@
     <MESSAGE value="Total MVC project structure created." />
     <MESSAGE value="Correcting URLs processing." />
     <MESSAGE value="MCV URLs parsing realization v1" />
-    <option name="LAST_COMMIT_MESSAGE" value="MCV URLs parsing realization v1" />
+    <MESSAGE value="Project rebase" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project rebase" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
